@@ -7,16 +7,16 @@
             </div>
             <div class="task__importance">{{todo.importance}}</div>
             <div class="task__editImportance">
-                <img (click)= todoSvc.upImportance(todo) src="assets/img/arrowup.png" class="task__arrowUp" alt="arrow up">
-                <img (click)= todoSvc.downImportance(todo) src="assets/img/arrowdown.png" class="task__arrowDown" alt="arrow down">
+                <img (click)= todoSvc.upImportance(todo) src="https://stackblitz.com/files/angular-hj165g/github/ShTaras/angular-hj165g/master/src/assets/img/arrowup.png" class="task__arrowUp" alt="arrow up">
+                <img (click)= todoSvc.downImportance(todo) src="https://cdn.jsdelivr.net/gh/ShTaras/angular-hj165g@master/src/assets/img/arrowdown.png" class="task__arrowDown" alt="arrow down">
             </div>
         </div>
         <div class="task__text">{{todo.text}}</div>
         <div class="task__buttons">
-            <img (click)= modalSvc.showDialogEdit(todo) class="task__btnEdit taskBtn" src="assets/img/btnEdit.png" alt="">
+            <img (click)= modalSvc.showDialogEdit(todo) class="task__btnEdit taskBtn" src="https://cdn.jsdelivr.net/gh/ShTaras/angular-hj165g@master/src/assets/img/btnEdit.png" alt="">
     
-            <img (click)=todoSvc.done(todo) class="task__btnCheck taskBtn" src="assets/img/bthCheck.png" alt="">
-            <img (click)= modalSvc.showDialogDelete(todo) class="task__btnDelete taskBtn" src="assets/img/btnDelete.png" alt="" id="delete">
+            <img (click)=todoSvc.done(todo) class="task__btnCheck taskBtn" src="https://cdn.jsdelivr.net/gh/ShTaras/angular-hj165g@master/src/assets/img/bthCheck.png" alt="">
+            <img (click)= modalSvc.showDialogDelete(todo) class="task__btnDelete taskBtn" src="https://stackblitz.com/files/angular-hj165g/github/ShTaras/angular-hj165g/master/src/assets/img/btnDelete.png" alt="" id="delete">
         </div>
     </div>
 
